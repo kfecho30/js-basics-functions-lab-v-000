@@ -22,6 +22,8 @@ function distanceTravelledInFeet(dest1, dest2) {
 function calculatesFarePrice(start, end){
   let dist = distanceTravelledInFeet(start, end);
   if (dist <= 400) {
-    return "This one is one us!"
-  } else if (distanceTrav)
+    return "This one is one us!";
+  } else if (dist <= 2000) {
+    return "You owe #{(dist-400)*.02}"
+  }
 }
