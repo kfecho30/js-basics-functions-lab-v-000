@@ -7,6 +7,6 @@ function distanceFromHqInBlocks(dest) {
   }
 }
 
-functio distanceFromHqInFeet(dest) {
+function distanceFromHqInFeet(dest) {
   return distanceFromHqInBlocks(dest) * 256
 }
