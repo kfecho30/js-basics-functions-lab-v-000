@@ -13,8 +13,8 @@ function distanceFromHqInFeet(dest) {
 
 function distanceTravelledInFeet(dest1, dest2) {
   if(dest1 >= dest2) {
-    return dest1-dest2
+    return (dest1-dest2)*264
   } else {
-    return dest2-dest1
+    return (dest2-dest1)*264
   }
 }
